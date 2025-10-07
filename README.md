@@ -1,11 +1,11 @@
 # Unrestricted Internet Access 101
 
 ### Relevant links
-[3x-ui github repository](https://github.com/MHSanaei/3x-ui) - easily installable & highly customizable stealthy proxy server with web-based control panel. Uses [xray](https://github.com/XTLS/Xray-core) as the proxy backend.
-[Hysteria2 project website](https://v2.hysteria.network/) - stealthy proxy server software.
-[NekoBox client software](https://getnekobox.com/en/) - Windows, Linux & Android app compatible with a range of stealthy proxy technologies.
-[AmneziaWG](https://amnezia.org/) - stealthy VPN, a fork of [wireguard](https://www.wireguard.com/) with added obfuscation & traffic mimicry to QUIC.
-[Streisand](https://apps.apple.com/us/app/streisand/id6450534064) - iOS client app compatible with a range of stealthy proxy technologies.
+- [3x-ui github repository](https://github.com/MHSanaei/3x-ui) - easily installable & highly customizable stealthy proxy server with web-based control panel. Uses [xray](https://github.com/XTLS/Xray-core) as the proxy backend.
+- [Hysteria2 project website](https://v2.hysteria.network/) - stealthy proxy server software.
+- [NekoBox client software](https://getnekobox.com/en/) - Windows, Linux & Android app compatible with a range of stealthy proxy technologies.
+- [AmneziaWG](https://amnezia.org/) - stealthy VPN, a fork of [wireguard](https://www.wireguard.com/) with added obfuscation & traffic mimicry to QUIC.
+- [Streisand](https://apps.apple.com/us/app/streisand/id6450534064) - iOS client app compatible with a range of stealthy proxy technologies.
 
 ## Setting up 3x-ui on a VPS
 
@@ -46,7 +46,9 @@ Run command:
 x-ui
 ```
 
-And in the menu select the option **restart**, it's number 13 as of the moment of this manual being created. After that select option **show current settings** (number 10) and check that you see a message that panel is secure with SSL.
+And in the menu
+- select the option **restart**, it's number 13 as of the moment of this manual being created.
+- After that select option **show current settings** (number 10) and check that you see a message that panel is secure with SSL.
 
 Copy the link from the script and paste it into your browser. You will see a security warning, telling you that **connection is not secure**. What it means is that your connection is encrypted by newly-created self-signed SSL certificate, but browser can't verify it's authenticity, because it's self-signed.
 
@@ -55,7 +57,9 @@ Select **Advanced** and then **Accept risk & continue**.
 Log in with your credentials shown after the installation of 3x-ui.
 
 Proceed to **Inbounds** in the left menu, and click **Add inbound**
-*For a step-by-step setup please watch the [video](https://youtu.be/7GtUVT0b1qs?si=dQrEhWXcIHmrlgEe&t=1197)* *If something is not mentioned below, don't touch it, leave as it is*
+*For a step-by-step setup please watch the [video](https://youtu.be/7GtUVT0b1qs?si=dQrEhWXcIHmrlgEe&t=1197)* 
+
+	*If something is not mentioned below, don't touch it, leave as it is*
 
 - Protocol: vless
 - Port: 443
