@@ -59,7 +59,7 @@ Log in with your credentials shown after the installation of 3x-ui.
 Proceed to **Inbounds** in the left menu, and click **Add inbound**
 *For a step-by-step setup please watch the [video](https://youtu.be/7GtUVT0b1qs?si=dQrEhWXcIHmrlgEe&t=1197)* 
 
-	*If something is not mentioned below, don't touch it, leave as it is*
+	If something is not mentioned below, don't touch it, leave as it is
 
 - Protocol: vless
 - Port: 443
